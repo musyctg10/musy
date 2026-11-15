@@ -6,7 +6,7 @@ const SIZES=["S","M","L","XL"];
    Nombre de cada foto: id-del-producto + "-" + color, en minúsculas y sin tildes.
    Ejemplo: esencial-negro.jpg, segunda-piel-marron.jpg. Portada: portada.jpg
    Si una foto no existe, la página muestra el dibujo del body en ese color. */
-const IMG_BASE="assets/img/productos/", IMG_EXT="png";
+const IMG_BASE="assets/img/productos/", IMG_EXT="webp";
 /* Varias fotos por color: esencial-negro.jpg (principal), esencial-negro-2.jpg,
    esencial-negro-3.jpg ... hasta MAX_FOTOS. Con 8 o más fotos alrededor de la
    prenda, arrastrar en la ficha la hace girar como una vista 360°. */
