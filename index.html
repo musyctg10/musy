@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Musy</title>
+<meta name="description" content="Musy: camisetas 100% algodón en tallas S, M, L y XL. Promo 4 x $100.000 y envíos a toda Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/img/favicon-512.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<!-- Ondas reutilizables -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="ondas" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M-20 70 C 180 10, 320 120, 520 60 S 860 0, 1220 70" fill="none" stroke="#F0C9CA" stroke-opacity=".28" stroke-width="2.5"/>
+      <path d="M-20 95 C 220 40, 380 140, 600 85 S 940 30, 1220 100" fill="none" stroke="#F0C9CA" stroke-opacity=".18" stroke-width="2"/>
+      <path d="M-20 40 C 140 90, 420 -10, 680 45 S 1000 100, 1220 30" fill="none" stroke="#CB98A1" stroke-opacity=".3" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="ondas-alto" viewBox="0 0 1200 400" preserveAspectRatio="none">
+      <path d="M-40 120 C 200 20, 380 260, 640 150 S 1020 40, 1240 160" fill="none" stroke="#F0C9CA" stroke-opacity=".22" stroke-width="3"/>
+      <path d="M-40 220 C 240 120, 420 360, 700 250 S 1060 140, 1240 270" fill="none" stroke="#F0C9CA" stroke-opacity=".15" stroke-width="2.5"/>
+      <path d="M-40 320 C 160 380, 520 200, 760 320 S 1080 400, 1240 330" fill="none" stroke="#CB98A1" stroke-opacity=".25" stroke-width="2"/>
+      <path d="M900 -20 C 980 120, 1120 160, 1240 120" fill="none" stroke="#F0C9CA" stroke-opacity=".3" stroke-width="2"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="promo"><div class="wrap">
+  <span>Promo: 4 camisetas por $100.000</span>
+  <span>Envíos a toda Colombia</span>
+  <span>Sin devoluciones</span>
+</div></div>
+
+<header class="nav">
+  <div class="wrap">
+    <a href="#inicio" class="logo"><img src="assets/img/logo-musy-claro.png" alt="Musy" width="363" height="120"></a>
+    <ul class="menu" id="menu">
+      <li><a href="#tienda" data-go="all">Tienda</a></li>
+      <li><a href="#tienda" data-go="Basico">Basico</a></li>
+      <li><a href="#tienda" data-go="Deportiva">Deportiva</a></li>
+      <!--<li><a href="#tallas">Guía de tallas</a></li>-->
+      <li><a href="#ayuda">Envíos y cambios</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn" id="openCart" aria-label="Abrir carrito">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="badge" id="cartCount">0</span>
+      </button>
+      <button class="icon-btn burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="inicio">
+  <div class="hero"><div class="wrap">
+    <div>
+      <div class="eyebrow">Colección Musy</div>
+      <h1>Camisetas que se <em>sienten</em> como tú.</h1>
+      <p>Diseñadas para acompañarte todos los días. Camisetas 100 % algodón, ligeras, suaves y cómodas. Encuentra tu color favorito y crea combinaciones que reflejen tu estilo.</p>
+      <div class="cta-row">
+        <a href="#tienda" class="btn btn-vino" data-go="all">Comprar ahora</a>
+        <!--<a href="#tallas" class="btn btn-line">Ver guía de tallas</a>-->
+      </div>
+    </div>
+    <div class="hero-art" id="heroArt">
+      <div class="hero-tag">4 x <b>$100.000</b></div>
+    </div>
+  </div></div>
+
+  <section id="tienda"><div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Tienda</div>
+        <h2>¿En qué mood quieres estar?</h2>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar colección">
+        <button class="chip" data-f="all" aria-pressed="true">Todos</button>
+        <button class="chip" data-f="Basico" aria-pressed="false">Basico</button>
+        <button class="chip" data-f="Deportiva" aria-pressed="false">Deportiva</button>
+      </div>
+    </div>
+    <!--<p class="coll-note" id="collNote">Variedad de modelos, variedad de colores y un solo precio: $35.000 cada uno.</p>-->
+    <div class="grid" id="grid"></div>
+  </div></section>
+
+  <div class="band">    <svg class="waves" aria-hidden="true"><use href="#ondas-alto" width="100%" height="100%"/></svg>
+    <div class="wrap">
+      <div class="big">4 x 100<small>MIL PESOS</small></div>
+      <p>Mezcla modelos y colores como quieras. Mezcla modelos, colores y tallas. El descuento se aplica solo en el carrito por cada grupo de cuatros: ahorras $40.000 por cuarteto.</p>
+      <a href="#tienda" class="btn" style="background:var(--rosa);color:var(--vino)" data-go="all">Arma tu cuarteto</a>
+    </div>
+  </div>
+
+  <section><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Por qué Musy</div><h2>Comodidad y calidad en cada detalle.</h2></div></div>
+    <div class="benefits">
+      <div class="benefit"><div class="num">100%</div><h3>Algodón de calidad</h3><p>Confeccionadas en algodón puro para ofrecer suavidad, frescura y comodidad durante todo el día.</p></div>
+      <div class="benefit"><div class="num"># 1</div><h3>Tejido ligero</h3><p>Gramaje ideal para disfrutar de una camiseta fresca, transpirable y agradable al contacto con la piel.</p></div>
+      <div class="benefit"><div class="num">4</div><h3>Tallas disponibles</h3><p>Encuentra tu ajuste ideal en tallas S, M, L y XL, con un corte regular pensado para brindar comodidad.</p></div>
+      <div class="benefit"><div class="num">Rib</div><h3>Cuello reforzado</h3><p>Cuello redondo en rib que aporta un acabado clásico, mayor resistencia y un estilo que nunca pasa de moda.</p></div>
+    </div>
+  </div></section>
+
+  <!--<section id="tallas"><div class="wrap size-grid">
+    <div>
+      <div class="eyebrow">Guía de tallas</div>
+      <h2 style="font-size:clamp(28px,4vw,44px);font-weight:800;color:var(--vino);margin:6px 0 14px">Encuentra tu talla en centímetros</h2>
+      <p style="color:var(--tinta-2);max-width:50ch;margin:0">Mide busto, cintura y cadera con una cinta métrica sin apretar. Si quedas entre dos tallas, elige la mayor para un ajuste más cómodo.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Talla</th><th>Ancho</th><th>Largo</th><th>Ancho de manga</th></tr></thead>
+        <tbody>
+          <tr><td><b>S</b></td><td>48 cm</td><td>69.5 cm</td><td>16 cm</td></tr>
+          <tr><td><b>M</b></td><td>51 cm</td><td>75 cm</td><td>17.5 cm</td></tr>
+          <tr><td><b>L</b></td><td>58 cm</td><td>77 cm</td><td>19 cm</td></tr>
+          <tr><td><b>XL</b></td><td>61 cm</td><td>80 cm</td><td>20 cm</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div></section>-->
+
+  <section id="ayuda"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Ayuda</div><h2>Envíos, pagos</h2></div></div>
+    <details open><summary>¿Cuánto tarda y cuánto cuesta el envío?</summary><p>Enviamos a toda Colombia con transportadora. Cartagena, Barranquilla y Bogotá: 1 a 3 días hábiles. Resto del país: 4 a 8 días hábiles.</p></details>
+    <details><summary>¿Cómo funciona la promo 4 x $100.000?</summary><p>Por cada cuatro sueteres en tu carrito, sin importar modelo, color ni talla, pagas $100.000 en lugar de $140.000.</p></details>
+    <details><summary>¿Qué medios de pago aceptan?</summary><p>Pago contra entrega en la ciudad de Cartagena, transferencia por Nequi o llave que te enviaremos por WhatsApp.</p></details>
+    <details><summary>¿Puedo cambiar mi camiseta?</summary><p>Queremos que tu experiencia con Musy sea siempre la mejor. Por motivos de higiene, no realizamos devoluciones ni cambios por gusto personal o elección de talla. Sin embargo, si recibes un producto diferente al que solicitaste, como un estampado, diseño o color equivocado, ¡no te preocupes! Estamos aquí para ayudarte. Comunícate con nuestro equipo de atención al cliente para revisar tu caso y encontrar una solución.</p></details>
+  </div></section>
+</main>
+
+<footer>
+  <svg class="waves" aria-hidden="true"><use href="#ondas-alto" width="100%" height="100%"/></svg>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo" style="font-size:30px"><img src="assets/img/logo-musy-claro.png" alt="Musy" width="363" height="120"></div>
+        <p style="opacity:.85;font-size:14px;max-width:34ch">Camisetas hechas en Colombia que transmite Comodidad, color y creatividad en cada suéter.</p>
+        <form class="news" id="newsForm">
+          <label for="newsEmail" style="position:absolute;left:-9999px">Correo electrónico</label>
+          <input id="newsEmail" type="email" placeholder="Tu correo" required>
+          <button class="btn" type="submit">Suscribirme</button>
+        </form>
+        <div class="msg" id="newsMsg"></div>
+      </div>
+      <div><h4>Tienda</h4><ul>
+        <li><a href="#tienda" data-go="all">Todos las camisetas</a></li>
+        <li><a href="#tienda" data-go="basic">Colección Basica</a></li>
+        <li><a href="#tienda" data-go="tender">Colección Deportiva</a></li>
+      </ul></div>
+      <div><h4>Ayuda</h4><ul>
+        <!--<li><a href="#tallas">Guía de tallas</a></li>-->
+        <li><a href="#ayuda">Envíos</a></li>
+        <li><a href="#ayuda">Cambios</a></li>
+        <li><a href="#ayuda">Medios de pago</a></li>
+      </ul></div>
+      <div><h4>Contacto</h4><ul>
+        <li>WhatsApp: <span style="user-select:all">+57 313 707 3453</span></li>
+        <li>musy.ctg@gmail.com</li>
+        <li class="social-links"><a href="https://www.instagram.com/musy_bydanielatous/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram de Musy"><i class="fa-brands fa-instagram"></i></a></li>
+        <li>Cartagena, Bolívar</li>
+      </ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Musy. Todos los derechos reservados.</span>
+      <span>Política de privacidad · Términos y condiciones</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/573137073453?text=Hola%20Musy%2C%20tengo%20una%20pregunta" target="_blank" rel="noopener" id="waBtn">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg>
+  ¿Dudas? Escríbenos
+</a>
+
+<div class="overlay" id="overlay"></div>
+
+
+<aside class="drawer" id="cart" aria-label="Carrito" aria-hidden="true">
+  <div class="drawer-head"><h3 id="drawerTitle">Tu carrito</h3><button class="close" data-close aria-label="Cerrar">×</button></div>
+  <div class="drawer-body" id="cartBody"></div>
+  <div class="drawer-foot" id="cartFoot"></div>
+</aside>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mName">
+  <div class="modal-box">
+    <button class="close" data-close aria-label="Cerrar">×</button>
+    <div class="modal-img" id="mImg"></div>
+    <div class="modal-info">
+      <div class="eyebrow" id="mColl"></div>
+      <h2 id="mName"></h2>
+      <div class="ref">Ref. <span id="mRef"></span></div>
+      <div class="price" style="font-size:20px;color:var(--vino)">$35.000 <span style="font-size:13px;font-weight:500;color:var(--tinta-2)">· 4 por $100.000</span></div>
+      <p id="mDesc"></p>
+      <div class="label">Color: <span id="mColor"></span></div>
+      <div class="swatches" id="mSw"></div>
+      <div class="label">Talla: <span id="mSize">elige una</span> · <a href="#tallas" data-close-link style="color:var(--vino)">Guía de tallas</a></div>
+      <div class="sizes" id="mSizes" role="group" aria-label="Talla"></div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+        <div class="qty" style="margin:0"><button id="mMinus" aria-label="Disminuir">−</button><span id="mQty">1</span><button id="mPlus" aria-label="Aumentar">+</button></div>
+        <button class="btn btn-vino" id="mAdd" style="flex:1;justify-content:center">Agregar al carrito</button>
+      </div>
+      <div class="err" id="mErr"></div>
+      <div class="specs">
+        <span>Tela: 100% Algodon</span>
+        <span>Tallas: S, M, L y XL (ver guía en centímetros)</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
