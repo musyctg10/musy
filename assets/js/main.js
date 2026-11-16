@@ -20,7 +20,7 @@ const PRODUCTS=[
  {id:"camiseta-unisex",ref:"MSY-NG01",name:"Negroni",coll:"Basico",cut:"a",colors:["Negro","Marrón","Marfil"],desc:"Camiseta ligera, suave y fresca, ideal para el uso diario. Confeccionada en algodón, ofrece comodidad, resistencia y un estilo versátil."},
  {id:"blueberries",ref:"MSY-BL02",name:"Blueberries",coll:"Basico",cut:"c",colors:["Crema"],desc:"Camiseta ligera, suave y fresca, ideal para el uso diario. Confeccionada en algodón, ofrece comodidad, resistencia y un estilo versátil."},
  {id:"floral",ref:"MSY-FL03",name:"Floral",coll:"Basico",cut:"b",colors:["Marrón","Marfil"],desc:"Escote cuadrado y tiras anchas que estilizan los hombros."},
- {id:"radiate",ref:"MSY-RD04",name:"Radiate",coll:"Basico",cut:"a",colors:["Vainilla","Marrón"],desc:"Corte clásico con pierna media para quienes prefieren más cobertura."},
+ {id:"radiate",ref:"MSY-RD04",name:"Radiate",coll:"Basico",cut:"a",colors:["Vainilla"],desc:"Corte clásico con pierna media para quienes prefieren más cobertura."},
  {id:"nuevayork",ref:"MSY-NY05",name:"Nueva York",coll:"Basico",cut:"b",colors:["AzulNavy","Rojo","Marrón","Negro","VerdeOscuro"],desc:"Espalda en U y frente liso. Marca la silueta sin incomodar."},
  {id:"rosa",ref:"MSY-RS01",name:"White Fox",coll:"Basico",cut:"d",colors:["AzulCielo","Marfil","Beige","PaloRosa"],desc:"Cuello halter y espalda descubierta para salir de noche."},
  {id:"bay",ref:"MSY-BY02",name:"Bay Cartagena",coll:"Basico",cut:"c",colors:["Vainilla"],desc:"Manga larga con acabado aterciopelado al tacto. Abriga sin perder forma."},
