@@ -33,9 +33,12 @@ const PRODUCTS=[
  {id:"summer-waves",ref:"MSY-SW05",name:"Summer Waves",coll:"Basico",cut:"d",colors:["PaloRosa"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
  {id:"green-girl",ref:"MSY-GG05",name:"Green Girl",coll:"Basico",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
  {id:"papaya",ref:"MSY-PP05",name:"Papaya",coll:"Basico",cut:"d",colors:["Crema","Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
- {id:"mojito",ref:"MSY-MJ05",name:"Mojito",coll:"Basico",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."}
+ {id:"mojito",ref:"MSY-MJ05",name:"Mojito",coll:"Basico",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
+ {id:"floral-love-never-fails",ref:"MSY-FLNF05",name:"Floral Love Never Fails",coll:"Basico",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
+ {id:"paris",ref:"MSY-PARI05",name:"Paris",coll:"Basico",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
+ {id:"reno",ref:"MSY-NRE05",name:"RENO",coll:"Navideño",cut:"d",colors:["Rojo"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."}
 ];
-const NOTES={all:"Diez modelos, varios colores y un solo precio: $35.000 cada uno.",basic:"Basic: cortes esenciales para el día a día, con un poco más de cobertura.",tender:"Tender: cortes con espalda descubierta, halter y tonos de temporada para salir."};
+const NOTES={all:"Muchos modelos, varios colores y un solo precio: $35.000 cada uno.",basic:"Basic: cortes esenciales para el día a día, con un poco más de cobertura.",tender:"Tender: cortes con espalda descubierta, halter y tonos de temporada para salir."};
 
 const COLOR_CODE={Negro:"NEG",Blanco:"BLA",Marrón:"MAR",Beige:"BEI",Mantequilla:"MAN",Rosa:"ROS",Celeste:"CEL",Rojo:"ROJ",Vino:"VIN"};
 const skuOf=(p,color,size)=>[p.ref,COLOR_CODE[color]||color.slice(0,3).toUpperCase(),size].filter(Boolean).join("-");
