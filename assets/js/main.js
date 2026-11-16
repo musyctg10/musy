@@ -36,7 +36,7 @@ const PRODUCTS=[
  {id:"mojito",ref:"MSY-MJ05",name:"Mojito",coll:"Basico",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
  {id:"floral-love-never-fails",ref:"MSY-FLNF05",name:"Floral Love Never Fails",coll:"Basico",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
  {id:"paris",ref:"MSY-PARI05",name:"Paris",coll:"Basico",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
- {id:"reno",ref:"MSY-NRE05",name:"RENO",coll:"Navideño",cut:"d",colors:["Rojo","VerdeOscuro"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
+ {id:"reno",ref:"MSY-NRE05",name:"Reno",coll:"Navideño",cut:"d",colors:["Rojo","VerdeOscuro"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
  {id:"merry-christmas",ref:"MSY-MXM05",name:"Merry Christmas",coll:"Navideño",cut:"d",colors:["Rojo","VerdeOscuro"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."},
  {id:"hohoho",ref:"MSY-HHH05",name:"HO HO HO",coll:"Navideño",cut:"d",colors:["Marfil"],desc:"Halter suave con espalda baja. Fresco para el calor del Caribe."}
 ];
